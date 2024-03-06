@@ -1,4 +1,4 @@
-'''
+
 #task 1 
 a = int(input("Input first number: "))
 print("")
@@ -23,6 +23,7 @@ elif operation == "**":
 else:
     print("Invalid operation selected")
 
+
 # task 2 
 
 first = str(input("what is your first name: "))
@@ -40,6 +41,7 @@ if reverse == "y":
 else:
     print("loser")
 
+
 #task 3
 
 num = int(input("input a number"))
@@ -50,7 +52,8 @@ elif num > 1:
 elif num == 0 :
     print("0")
     
-'''
+
+
 
 #task 4 
 
