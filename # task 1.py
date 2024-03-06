@@ -39,7 +39,7 @@ if reverse == "y":
     print (second[::-1])
 else:
     print("loser")
-'''
+
 #task 3
 
 num = int(input("input a number"))
@@ -50,3 +50,30 @@ elif num > 1:
 elif num == 0 :
     print("0")
     
+'''
+
+#task 4 
+
+username = input("enter a username: ")
+password = input("enter a password: ")
+
+print ("Hello "+ username)
+
+max_attempts = 3
+attempts = 0
+
+while attempts < max_attempts:
+    test = input("Enter password: ")
+    if test == password:
+        print("Correct")
+        break  
+    else:
+        print("Wrong")
+        attempts += 1
+
+if attempts == max_attempts:
+    print("Maximum attempts reached. Exiting...")
+        
+
+
+
